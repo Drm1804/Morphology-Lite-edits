@@ -774,11 +774,11 @@ a:hover {
 }
 
 .image-post .hentry {
-	max-width: 100%;
-	float: left;
+	max-width: 33.333%;
+/* 	float: left; */
 	margin:0;
-	border-bottom: 1px solid #fff;
-	border-right: 1px solid #fff;
+	border: 1px solid #fff;
+/* 	border-right: 1px solid #fff; */
 }
 .image-post .featured-image-wrapper {
 	position: relative;
@@ -815,6 +815,7 @@ a:hover {
 .dark-overlay:hover {
     opacity: 1;
 }
+
 .image-post .text-holder {
     position: absolute;
     display: block;
@@ -2368,7 +2369,7 @@ input[type="reset"]:focus,
 		min-height: 3rem;
 	}
 	.image-post .hentry {
-		max-width: 50%;
+		max-width: 33%;
 	}
 	.site-description {
 		max-width: 75%;
@@ -2640,7 +2641,7 @@ input[type="reset"]:focus,
 		width:33.3333%;
 	}	
 	.image-post .hentry {
-		max-width: 25%;
+		max-width: 33%;
 	}	
 }
 

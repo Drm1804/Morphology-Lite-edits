@@ -36,7 +36,20 @@
 				</div>
 			</div>
 		</div>
-	</div>		
+	</div>
+	<div class="text-holder-mobile">
+	<?php 
+      if( is_sticky() ) :
+			  $sticky = esc_html__( 'Featured', 'morphology-lite' );
+			echo '<div class="sticky-wrapper"><span class="featured">' . $sticky . '</span></div>';
+        endif; 
+        ?>
+				<?php  morphology_lite_entry_titles(); ?>      
+				<div class="entry-meta">
+				<?php  if( esc_attr(get_theme_mod( 'show_summary_meta', 1 ) ) ) :  ?>
+					<?php morphology_lite_tiled_posted_on(); ?>
+				<?php endif; ?>
+	</div>	
 	</a>
 </div>
 
