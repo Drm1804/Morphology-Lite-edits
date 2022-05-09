@@ -205,7 +205,7 @@ function morphology_lite_inline_styles($custom) {
 	// mobile menu button hover
 		$mobile_menu_hbutton = get_theme_mod( 'mobile_menu_hbutton', '#535353' );
 		$mobile_menu_button_htext = get_theme_mod( 'mobile_menu_button_htext', '#fff' );
-		$custom .= ".menu-toggle:active,.menu-toggle:focus,.menu-toggle:hover {background-color:" . esc_attr($mobile_menu_hbutton) . "; color:" . esc_attr($mobile_menu_button_htext) . "; }"."\n";
+// 		$custom .= ".menu-toggle:active,.menu-toggle:focus,.menu-toggle:hover {background-color:" . esc_attr($mobile_menu_hbutton) . "; color:" . esc_attr($mobile_menu_button_htext) . "; }"."\n";
 
 	// mobile menu styles
 		$mobile_menu_background = get_theme_mod( 'mobile_menu_background', '#000' );

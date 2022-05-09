@@ -64,7 +64,11 @@
 			
 			<nav id="site-navigation" class="main-navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
                 <div class="toggle-container">
-                        <button class="menu-toggle"><?php esc_html_e( 'Menu', 'morphology-lite' ); ?></button>
+                        <button class="menu-toggle">
+													<span></span>
+													<span></span>
+													<span></span>
+												</button>
                 </div>
                               
 				<?php
